@@ -23,6 +23,9 @@ Oracle 11g
 WAS:
 Apache Tomcat 8.0.27
 
+IDE:
+NetBeans 8.1
+
 
 ## Release History
 
