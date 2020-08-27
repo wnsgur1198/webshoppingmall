@@ -5,7 +5,7 @@
 
 ## Installation
 
--
+pull한 다음 오라클과 톰캣의 연동 설정을 해야 함
 
 ## Usage example
 
