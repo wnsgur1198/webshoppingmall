@@ -29,7 +29,7 @@ Apache Tomcat 8.0.27
 * 0.1.0
     * first commit
     * 아래 링크를 참조한 튜토리얼
-      https://m.blog.naver.com/ndb796/220635077027
+    -    https://m.blog.naver.com/ndb796/220635077027
     * 개선사항: 
     1) 상품이미지 추가
     2) 관리자 계정에서 상품 삭제 기능 추가
