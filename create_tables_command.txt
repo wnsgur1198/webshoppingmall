@@ -1,3 +1,9 @@
+create user shopdb identified by 00000000;
+
+grant dba, resource, connect to shopdb;
+
+conn shopdb/00000000;
+
 ​create table shoppinguser(
   UserID number constraints user_UserID_PK primary key,
   UserType varchar2(20),
@@ -33,3 +39,7 @@ create table shoppingpayment(
   Contact varchar2(20),
   CreditCardNumber varchar2(20),
   CreditCardPassword varchar2(10));
+
+​insert into shoppinguser values(1, 'A', 'admin', '0000', to_date('20200101', 'YYYYMMDD'), 'Man', 'admin@naver.com', '010-0000-0000', 'Asia/Seoul');
+
+commit;

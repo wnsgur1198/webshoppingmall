@@ -29,6 +29,7 @@ public final class LoginServlet extends HttpServlet {
         String usertype = request.getParameter("usertype");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        
         if (usertype.equals("unknown")) {
             status.addException(new Exception(
                     "Please select a login type"));
@@ -41,17 +42,21 @@ public final class LoginServlet extends HttpServlet {
             status.addException(new Exception(
                     "Please enter your password"));
         }
+        
         User user = null;
         ArrayList<Product> products = null;
+        
         try {
             UserService = new UserService();
             user = UserService.getUser(usertype, username, password);
             ProductService = new ProductService();
             products = ProductService.getAllProduct();
+            
             if (user == null) {
                 status.addException(new Exception(
                         "Please enter your user information in the right way"));
             }
+            
             if (products == null) {
                 status.addException(new Exception(
                         "The product database error"));

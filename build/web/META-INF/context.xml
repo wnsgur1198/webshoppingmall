@@ -7,6 +7,5 @@
                maxActive="100" maxIdle="30" maxWait="10000"
                username="shopdb" password="00000000"
                driverClassName="oracle.jdbc.driver.OracleDriver"
-               url="jdbc:oracle:thin:@LAPTOP-1J9RSCT6:1521:XE"/>
-            
+               url="jdbc:oracle:thin:@LAPTOP-1J9RSCT6:1521:XE"/>            
 </Context>
