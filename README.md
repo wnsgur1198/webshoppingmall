@@ -1,8 +1,6 @@
 # webshoppingmall
 > 자바와 오라클을 이용한 웹 쇼핑몰 개발 (개인)
 
-![](readme-img/header.png)
-
 
 ## Installation
 * pull한 다음 오라클과 톰캣의 연동 설정을 해야 함
