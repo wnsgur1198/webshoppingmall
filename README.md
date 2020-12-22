@@ -1,32 +1,29 @@
 # webshoppingmall
-> 자바와 오라클을 이용한 웹 쇼핑몰 개발
+> 자바와 오라클을 이용한 웹 쇼핑몰 개발 (개인)
 
 ![](readme-img/header.png)
 
+
 ## Installation
+* pull한 다음 오라클과 톰캣의 연동 설정을 해야 함
+* 오라클에서 create_tables_command.txt를 참조하여 필요한 테이블을 생성할 것
 
-pull한 다음 오라클과 톰캣의 연동 설정을 해야 함
 
-오라클에서 create_tables_command.txt를 참조하여 필요한 테이블을 생성할 것
+## 개발기간
+* 2020.08.30.
 
-## Usage example
 
-JSP와 오라클DB를 이용하여 사용자 등록, 상품등록/삭제/수정, 장바구니 및 구매 등이 가능한 웹 쇼핑몰
+## 주요기능
+* 상품목록 출력
+* 상품 등록/삭제
+* 회원가입/로그인
+* 장바구니/주문처리
 
 
 ## Development setup
-
-Java Version:
-JDK 8
-
-Database:
-Oracle 11g
-
-WAS:
-Apache Tomcat 8.0.27
-
-IDE:
-NetBeans 8.1
+* Java Version: JDK 8
+* Database: Oracle 11g
+* WAS: Apache Tomcat 8.0.27
 
 
 ## Release History
@@ -42,16 +39,7 @@ NetBeans 8.1
     4) 프론트뷰 디자인 개선(네비게이션바 등)
     5) 계정생성 및 상품등록 시 유효성검사 기능 추가
 
-## Meta
 
-김준혁 – wnsgur1198@naver.com
+## Contact
 
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
+김준혁 – kimjunhyeok.it@gmail.com
